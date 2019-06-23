@@ -56,8 +56,6 @@
         margin: 1cm;
     }
 }
-
-
 .box-bg:hover{
     background: lightskyblue;
 }
@@ -111,7 +109,6 @@ p{
 .tm-content-box.flex-2-col{
     display: flex;
 }
-
 .heading h2{
     color: lightskyblue;
     font-weight: lighter;
@@ -138,7 +135,6 @@ p{
     vertical-align: super ;
     font-variant: small-caps;
 }
-
 .blocks li{
     padding: 5px;
 }
