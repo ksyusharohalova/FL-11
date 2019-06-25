@@ -1,0 +1,225 @@
+* {
+  margin: 0; }
+
+.main-font, .header_heading, .section_text, .section_card_heading, .section_banner_heading {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.secondFont, .header_text, .section_card_text, .section_banner_text, .footer-cr, .footer_text {
+  font-family: "Hind", sans-serif; }
+
+body {
+  background-color: #21232e; }
+
+p span {
+  font-size: 9px;
+  margin: -2px 0 0 -7px;
+  text-indent: 1em; }
+
+.landing-logo {
+  font-size: 19px;
+  color: #ffffff;
+  font-family: "Hind", sans-serif; }
+  .landing-logo p {
+    margin-left: 14%;
+    margin-top: -55px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column; }
+  .landing-logo img {
+    margin-left: 10%;
+    margin-top: 20px; }
+
+.header {
+  background-image: url("../img/m-h-night.jpg");
+  background-size: 100% 100%;
+  height: 735px;
+  border-radius: 0 0 38%; }
+
+.header_heading {
+  font-weight: bold;
+  width: 510px;
+  height: 175px;
+  font-size: 70px;
+  color: white;
+  margin-left: 10%;
+  margin-top: 74px;
+  line-height: 1;
+  position: relative;
+  z-index: 1; }
+  .header_heading::after {
+    content: "";
+    position: absolute;
+    bottom: 34px;
+    left: 2px;
+    right: 219px;
+    height: 25px;
+    background-color: #ff4e33;
+    z-index: -1; }
+
+.header_text {
+  margin-left: 10%;
+  line-height: 1.6;
+  white-space: pre-line;
+  color: white; }
+
+.header_button {
+  margin: 58px 0 0 10%;
+  width: 143px;
+  height: 49px;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  background-color: #e3ac00;
+  border: none;
+  border-radius: 2px; }
+
+.section_text {
+  text-align: center;
+  font-size: 40px;
+  margin: 23px 0 39px 0;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  z-index: 1; }
+  .section_text::after {
+    content: "";
+    position: absolute;
+    bottom: 9px;
+    left: 50.5%;
+    right: 37.7%;
+    height: 10px;
+    background-color: #ff4e33;
+    z-index: -1; }
+
+.section_card_wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 391px);
+  grid-column-gap: 21px;
+  justify-content: center;
+  grid-area: section_card_wrap;
+  text-align: center;
+  margin-bottom: 141px; }
+
+.section_card {
+  color: white;
+  height: 415px;
+  background-color: #3b3f50;
+  border: 20px solid #3b3f50;
+  border-radius: 8px; }
+
+.section img {
+  width: 100%;
+  height: 57%;
+  padding-bottom: 6px; }
+
+.section_card_heading {
+  font-size: 23px;
+  font-weight: 600;
+  margin: 3px 0 0 0;
+  padding-bottom: 18px;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 1;
+  display: inline-block; }
+  .section_card_heading span::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 15px;
+    left: 1%;
+    right: -0.3%;
+    height: 13px;
+    background-color: #ff4e33;
+    z-index: -1; }
+
+.section_card_text {
+  line-height: 1.5;
+  margin-bottom: 37px;
+  color: #c0c3c4; }
+
+.section_banner {
+  background-image: linear-gradient(to right, #dfa505, #932d52);
+  height: 118px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  text-align: left;
+  border-left-width: 20px;
+  padding-top: 26px;
+  letter-spacing: 0.8px;
+  width: 946px;
+  position: absolute;
+  left: 50%;
+  margin-left: -473px; }
+
+.section_banner_text_wrap {
+  padding-right: 203px;
+  padding-left: 102px; }
+
+.section_banner_heading {
+  font-size: 28.1px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff;
+  position: relative;
+  z-index: 1; }
+  .section_banner_heading::after {
+    content: "";
+    position: absolute;
+    bottom: 19px;
+    left: 29.5%;
+    right: 55.7%;
+    height: 13px;
+    background-color: #ff4e33;
+    z-index: -1; }
+
+.section_banner_text {
+  font-size: 15px;
+  color: #d1d1c9;
+  letter-spacing: 0.5px;
+  text-align: left; }
+
+.section_banner_button {
+  width: 142px;
+  height: 50px;
+  margin-top: 21px;
+  font-size: 16px;
+  background-color: #e3ac00;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold; }
+
+.footer {
+  margin-top: 212px; }
+
+.footer-wrap {
+  background-color: #3b3f50;
+  height: 301px;
+  width: 100%; }
+
+.footer_logo {
+  padding-top: 98px; }
+  .footer_logo p {
+    color: #c0c3ce; }
+    .footer_logo p span {
+      margin-top: -7px; }
+
+.footer-cr {
+  margin-left: 78.2%;
+  margin-top: -2.2%;
+  display: block;
+  color: #c0c3ce; }
+
+.footer_text {
+  position: absolute;
+  left: 50%;
+  margin-left: -179px;
+  margin-top: -52px;
+  width: 300px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: unset;
+  color: #b6c3ce; }
